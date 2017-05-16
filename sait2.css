@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  text-align: center;
+}
+.menu {
+  width: 1200px;
+  height: 29px;
+  background: url("img/menu.png");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.menu ul {
+  margin-left: 470px;
+}
+.menu li {
+  list-style: none;
+  position: relative;
+  float: left;
+  text-align: center;
+  color: #fff;
+  font-size: 11pt;
+  font-family: "Tahoma";
+}
+.menu a {
+  color: #60b5ed;
+  text-decoration: none;
+}
+.meu {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.meu:hover {
+  background: url("img/layer_top.png");
+}
+.meu:hover a {
+  color: #fff;
+}
+.vender {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.vender:hover {
+  background: url("img/layer_top.png");
+}
+.vender:hover a {
+  color: #fff;
+}
+.forum {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.forum:hover {
+  background: url("img/layer_top.png");
+}
+.forum:hover a {
+  color: #fff;
+}
+.contato {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.contato:hover {
+  background: url("img/layer_top.png");
+}
+.contato:hover a {
+  color: #fff;
+}
+.ajuda {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.ajuda:hover {
+  background: url("img/layer_top.png");
+}
+.ajuda:hover a {
+  color: #fff;
+}
+.minhas {
+  padding-left: 65px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.minhas:before {
+  position: absolute;
+  content: url("img/flag.png");
+  left: 35px;
+}
+.ola {
+  background: url("img/layer_top.png");
+  padding: 5px 5px 7px 5px;
+}
+.minhas a {
+  color: #fff;
+}
+.ola a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.photo_back {
+  margin: 0 auto;
+  width: 1200px;
+  height: 1000px;
+  background: url("img/background.png");
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box_top {
+  margin: 210px auto 0 auto;
+  width: 560px;
+  height: 60px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.box_top p {
+  padding-top: 12px;
+  font-family: "Tahoma";
+  font-size: 20pt;
+  color: #fff;
+  text-align: center;
+}
+.box {
+  margin: 2px auto 0 auto;
+  width: 560px;
+  height: 550px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.facebook {
+  padding-top: 20px;
+  width: 560px;
+  height: auto;
+}
+.facebook p {
+  margin: 0 auto;
+  width: 276px;
+  height: 35px;
+  background: url("img/facebook.png");
+  cursor: pointer;
+}
+
+.OU p {
+  position: relative;
+  color: #999999;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Tahoma";
+  font-size: 14pt;
+  text-align: center;
+}
+.OU :after {
+  position: absolute;
+  content: url("img/layer49.png");
+  left: 142px;
+  top: 25px;
+}
+.registration {
+  width: 560px;
+  height: 275px;
+}
+.registration li {
+  margin: 0 auto;
+  padding-bottom: 20px;
+  list-style: none;
+  position: relative;
+}
+
+.registration input {
+  width: 276px;
+  height: 35px;
+  background-color: #000;
+  border-color: #111;
+  color: #fff;
+  font-family: Tahoma;
+  font-size: 12pt;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: none;
+}
+.registration input:hover {
+  background: url("img/layer1.png");
+  box-shadow: 0px 0px 8px 1px rgba(96, 181, 237, 0.7), 0px 0px 8px 1px rgba(96, 181, 237, 0.8);
+}
+.flag {
+  height: auto;
+  width: 560px;
+  padding-bottom: 20px;
+}
+.flag p {
+  color: #999999;
+  font-size: 12pt;
+  font-family: Tahoma, Verdana;
+}
+.button {
+  width: 560px;
+  height: 34px;
+  padding-bottom: 20px;
+}
+.button p {
+  margin: 0 auto;
+  padding-top: 7px;
+  color: #fff;
+  font-family: Tahoma, Verdana;
+  font-size: 12pt;
+  background: url("img/button.png");
+  width: 150px;
+  height: 27px;
+  text-align: center;
+  cursor: pointer;
+}
+.agree {
+  margin: 0 auto;
+  width: 310px;
+  height: auto;
+}
+.agree p {
+  text-align: center;
+  font-size: 10pt;
+  font-family: Tahoma, Verdana;
+  color: #999999;
+}
